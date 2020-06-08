@@ -1,0 +1,204 @@
+/*start header*/
+.home-header {
+    height: 200px;
+}
+.home-header .child2 {
+    top: 44%;
+}
+.home-header .child2 .box1 img {
+    width: 250px;
+}
+.home-header .child2 .box2 img {
+    width: 48px;
+}
+/*end header*/
+
+/*start login*/
+.login {
+    background: url("../../assets/Rectangle 31.png") no-repeat;
+    background-size: cover;
+    padding: 30px 0
+}
+.login .card {
+    border-radius: 0 20px 20px 0;
+    overflow: hidden;
+}
+.login .card  .parent1 {
+    padding-left: 0;
+    position: relative;
+}
+.login .card  .parent1 .login-form {
+    margin-top: 50px;
+}
+.login .card  .parent1 .login-form .box {
+    position: relative;
+    margin-bottom: 40px;
+}
+.login .card  .parent1 .login-form .box .form-control {
+    margin: auto;
+    height: 70px;
+    border-radius: 35px;
+    padding: 10px 60px 10px 20px;
+    background: #d0475c;
+    color: #ffffff;
+    font-size: 20px;
+}
+.login .card  .parent1 .login-form .box i {
+    position: absolute;
+    font-size: 30px;
+    color: #ffffff;
+    top: 47%;
+    right: 20px;
+    transform: translate(0, -50%);
+}
+.login .card  .parent1 .login-form .form-control::placeholder {
+    color: #ffffff;
+}
+.login .card  .parent1 .login-form .login-form-btn {
+    width: 220px;
+    background-color: #ab3145;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px 20px;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.login .card  .parent1 .login-action {
+    margin-top: 50px;
+}
+.login .card  .parent1 .login-action .box1 a {
+    color: #d0475c;
+    font-weight: 600;
+}
+.login .card  .parent1 .login-action .box2 {
+    text-align: left;
+}
+.login .card  .parent1 .login-action .box2 a img {
+    width: 90px;
+
+}
+.login .card  .parent2 {
+    background: url("../../assets/Rectangle 51.png") no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.login .card  .parent2 img {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*end login*/
+
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*start home header*/
+    .home-header .child1 i {
+        font-size: 27px;
+    }
+    .home-header .child1 a {
+        font-size: 17px;
+    }
+    .home-header .child2 {
+        top: 53%;
+    }
+    .home-header .child2 .box1 img {
+        width: 200px;
+    }
+    .home-header .child2 .box2 img {
+        width: 38px;
+    }
+    /*start home header*/
+
+    /*start login*/
+    .login .card {
+        border-radius: 20px;
+    }
+    .login .card .parent1 {
+        padding-left: 15px;
+    }
+    .login .card .parent1 .login-form {
+        margin-top: 25px;
+    }
+    .login .card .parent1 .login-form .box {
+        margin-bottom: 25px;
+    }
+    .login .card .parent1 .login-form .box .form-control {
+        height: 50px;
+        padding: 10px 45px 10px 10px;
+        font-size: 15px;
+    }
+    .login .card .parent1 .login-form .box i {
+        font-size: 23px;
+        right: 15px;
+    }
+    .login .card .parent1 .login-form .login-form-btn {
+        width: auto;
+        font-size: 17px;
+        padding: 8px 40px;
+    }
+    .login .card .parent1 .login-action .box1 {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .login .card .parent1 .login-action .box2{
+        text-align: center;
+    }
+    .login .card .parent2 {
+        height: 350px;
+    }
+    .login .card .parent2 img {
+        width: 170px;
+    }
+    /*end login*/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*start home header*/
+    .home-header .child1 i {
+        font-size: 27px;
+    }
+    .home-header .child1 a {
+        font-size: 17px;
+    }
+    .home-header .child2 {
+        top: 53%;
+    }
+    .home-header .child2 .box1 img {
+        width: 200px;
+    }
+    .home-header .child2 .box2 img {
+        width: 38px;
+    }
+    /*start home header*/
+
+    /*start login*/
+    .login .card {
+        border-radius: 20px;
+    }
+    .login .card .parent1 {
+        padding-left: 15px;
+    }
+    /*end login*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*start login*/
+    .login .card {
+        border-radius: 20px;
+    }
+    .login .card .parent1 {
+        padding-left: 15px;
+    }
+    /*end login*/
+}

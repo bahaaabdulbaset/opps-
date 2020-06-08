@@ -1,0 +1,144 @@
+
+/*start home navbar*/
+
+.home-header .home-navbar {
+    bottom: -12%;
+}
+.home-header .home-navbar .box1 .form-group input {
+    height: 60px;
+}
+.home-header .home-navbar .box1 .form-group .bootstrap-select {
+    height: 60px;
+}
+.home-header .home-navbar .box1 .form-group .bootstrap-select .dropdown-toggle {
+    height: 60px;
+}
+.home-header .home-navbar .box2 .form-group .bootstrap-select {
+    height: 42px;
+}
+.home-header .home-navbar .box2 .form-group .bootstrap-select .dropdown-toggle {
+    font-size: 16px;
+    padding: 6px 20px;
+    height: 42px;
+}
+
+/*end home navbar*/
+
+/*start new ads*/
+.new-ads {
+    margin-top: 120px;
+    padding: 30px 0;
+    background: url("../../assets/Rectangle 31.png");
+}
+.new-ads .home-ads .box .card {
+    background-color: #ffffff;
+}
+
+.new-ads .home-ads .pagination .page-item {
+    padding: 0 7px;
+}
+.new-ads .home-ads .pagination .page-item .page-link {
+    background-color: #cf455c;
+    border-color: #cf455c;
+    color: #ffffff;
+    font-size: 25px;
+    border-radius: 12px;
+    padding: 6px 15px;
+}
+.new-ads .home-ads .pagination .page-item.active .page-link {
+    background-color: #ff9065;
+    border-color: #ff9065;
+}
+.new-ads .home-ads .pagination .page-item.disabled .page-link {
+    color: #ffffff;
+    background-color: #cf455c;
+    border-color: #cf455c;
+}
+.new-ads .home-ads .pagination .page-item:first-child .page-link {
+     border-top-right-radius: 12px;
+     border-bottom-right-radius: 12px;
+}
+.new-ads .home-ads .pagination .page-item:last-child .page-link {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+/*end new ads*/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .home-header .home-navbar {
+        bottom: -78%;
+    }
+    .home-header .home-navbar .form-group .form-control {
+        margin-bottom: 20px;
+    }
+    .home-header .home-navbar .box1 {
+        margin-bottom: 0 !important;
+    }
+    .home-header .home-navbar .box1 .form-group input {
+        height: 42px;
+    }
+    .home-header .home-navbar .box1 .form-group .bootstrap-select {
+        height: 42px;
+    }
+    .home-header .home-navbar .box1 .form-group .bootstrap-select .dropdown-toggle {
+        height: 42px;
+    }
+    .home-header .home-navbar .box2 .form-group:last-child .form-control {
+        margin-bottom: 0;
+    }
+    .new-ads {
+        margin-top: 425px;
+    }
+    .new-ads .home-ads .pagination .page-item {
+        padding: 0 3px;
+    }
+    .new-ads .home-ads .pagination .page-item .page-link {
+        font-size: 11px;
+        border-radius: 8px;
+        padding: 9px 12px;
+    }
+    .new-ads .home-ads .pagination .page-item:first-child .page-link {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .new-ads .home-ads .pagination .page-item:last-child .page-link {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .home-header .home-navbar {
+        bottom: -42%;
+    }
+    .home-header .home-navbar .box1 .form-group:last-child {
+        margin-top: 30px;
+    }
+    .home-header .home-navbar .box2 .form-group:nth-child(3),
+    .home-header .home-navbar .box2 .form-group:last-child{
+        margin-top: 30px;
+    }
+    .new-ads {
+        margin-top: 300px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .home-header .home-navbar {
+        bottom: -42%;
+    }
+    .home-header .home-navbar .box1 .form-group:last-child {
+        margin-top: 30px;
+    }
+    .home-header .home-navbar .box2 .form-group:nth-child(3),
+    .home-header .home-navbar .box2 .form-group:last-child{
+        margin-top: 30px;
+    }
+    .new-ads {
+        margin-top: 300px;
+    }
+}

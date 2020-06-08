@@ -1,0 +1,617 @@
+body, html {
+    font-family: 'Cairo', sans-serif;
+    text-transform: capitalize;
+}
+img {
+    max-width: 100%;
+}
+
+/*start home header*/
+
+.home-header {
+    background: url("../../assets/bg.png");
+    background-size: 100% 100%;
+    height: 700px;
+    position: relative;
+}
+.home-header .child1 {
+    margin-top: 30px;
+}
+.home-header .child1 i {
+    color: #ffffff;
+    font-size: 30px;
+    vertical-align: sub;
+    margin-left: 8px;
+}
+.home-header .child1 a {
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 25px;
+    color: #cf455c;
+    padding: 3px 30px;
+    font-size: 19px;
+}
+.home-header .child2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home-header .child2 .box1 img {
+     width: 300px;
+}
+.home-header .child2 .box2 {
+    position: relative;
+}
+.home-header .child2 .box2 img {
+    width: 57px;
+    position: absolute;
+    top: 0;
+    right: 48%;
+    transform: translate(100%, -60%);
+    z-index: -1;
+}
+
+/*end home header*/
+
+/************************************************************************************************/
+
+/*start home navbar*/
+
+.home-header .home-navbar {
+    background-image: linear-gradient(to right, #cf455c, #fd8e63);
+    padding: 25px 20px;
+    position: absolute;
+    bottom: -7%;
+    right: 6%;
+    left: 6%;
+}
+.home-header .home-navbar .form-group {
+    margin-bottom: 0;
+}
+.home-header .home-navbar .form-group .form-control {
+    color: #999999;
+}
+.home-header .form-control:focus {
+     border-color: #999999;
+    outline: 0;
+    box-shadow: none;
+}
+.home-header .home-navbar .form-group input {
+    height: 55px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    outline-color: #999999;
+    border: 0;
+}
+.home-header .home-navbar .form-group input::placeholder {
+    color: #999999;
+}
+.home-header .home-navbar .form-group .bootstrap-select {
+    height: 55px;
+    border-radius: 30px;
+}
+.home-header .home-navbar .form-group .bootstrap-select .dropdown-toggle {
+    color: #999999;
+    background-color: #ffffff;
+    border-color: #ced4da;
+    font-size: 20px;
+    padding: 10px 20px;
+    height: 55px;
+    border-radius: 30px;
+    border: 0;
+}
+.home-header .home-navbar .form-group .bootstrap-select .dropdown-toggle:after{
+    color: #cf455c;
+    font-size: 30px;
+}
+.home-header .home-navbar .form-group .bootstrap-select .dropdown-toggle:focus{
+    outline: 0 !important;
+    box-shadow: none;
+}
+.home-header .home-navbar .form-group  .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+    text-align: right;
+}
+.home-header .home-navbar .form-group .form-button {
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 30px;
+    padding: 10px 20px;
+    height: 55px;
+    width: 100%;
+    color: #999999;
+    cursor: pointer;
+    font-size: 20px;
+}
+.home-header .home-navbar .form-group .form-button:focus {
+    outline: 0;
+}
+
+/*end home navbar*/
+
+/************************************************************************************************/
+
+/*start home categories*/
+
+.home-categories {
+    margin-top: 100px;
+}
+.home-categories .box div:first-child {
+    height: 110px;
+    width: 110px;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+}
+.home-categories .box div:first-child.linear-gradient1 {
+    background-image: linear-gradient(to bottom, #cf455c, #000000);
+
+}
+.home-categories .box div:first-child.linear-gradient2 {
+    background-image: linear-gradient(to bottom, #8BC34A, #000000);
+}
+.home-categories .box div:first-child.linear-gradient3 {
+    background-image: linear-gradient(to bottom, #fd8e63, #000000);
+}
+.home-categories .box div:first-child.linear-gradient4 {
+    background-image: linear-gradient(to bottom, #0ec1d5, #000000);
+}
+.home-categories .box div:first-child.linear-gradient5 {
+    background-image: linear-gradient(to bottom, #a04baf, #000000);
+}
+.home-categories .box div:first-child.linear-gradient6 {
+    background-image: linear-gradient(to bottom, #7387f7, #000000);
+}
+
+.home-categories .box div:first-child i {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    font-size: 40px;
+}
+.home-categories .box .dropdown {
+    margin-top: 10px;
+}
+.home-categories .box .dropdown-toggle:after {
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    font-size: 17px;
+    transform: translate(0, -50%);
+
+}
+.home-categories .box .dropdown  .btn-secondary {
+    background-color: #444444;
+    border-color: #444444;
+    font-size: 10px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+/*end home categories*/
+
+/************************************************************************************************/
+
+/*start new ads*/
+
+.new-ads {
+    margin-top: 80px;
+}
+.new-ads .home-ads {
+    margin-top: 35px;
+}
+.new-ads .home-ads .box a {
+    color: #000000;
+    text-decoration: none;
+}
+.new-ads .home-ads .box .card {
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    margin-bottom: 30px;
+}
+.new-ads .home-ads .box .card .card-img-top {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 230px;
+}
+.new-ads .home-ads .box .card .card-body .card-title {
+    font-weight: bold;
+    text-align: center;
+    color: #444444;
+}
+.new-ads .home-ads .box .card .card-body .card-text div {
+    margin-bottom: 10px;
+}
+.new-ads .home-ads .box .card .card-body .card-text div:last-child {
+    margin-bottom: 0;
+}
+.new-ads .home-ads .box .card .card-body .card-text div i {
+    color: #cb495f;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.new-ads .home-ads .box .card .card-body .card-text div span {
+    font-size: 25px;
+}
+.new-ads .home-ads .home-ads-button {
+    background-image: linear-gradient(to bottom, #cf455c, #fd8e63);
+    color: #ffffff;
+    width: 240px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 0;
+}
+.new-ads .home-ads .home-ads-button:hover {
+    color: #ffffff;
+}
+
+/*end new ads*/
+
+/************************************************************************************************/
+
+/*start join us*/
+
+.join-us {
+    background: url("../../assets/Rectangle 9@2x.png") no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+}
+.join-us .join-heading {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+.join-us form {
+    margin: auto;
+}
+.join-us form input {
+    width: 600px;
+    height: 70px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin: auto;
+}
+
+.join-us form .join-form-btn {
+    color: #ff9065;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+/*end join us*/
+
+/************************************************************************************************/
+
+/*start footer*/
+
+footer {
+    background: url("../../assets/Rectangle 12@2x.png");
+    padding: 40px 0;
+}
+footer .box1 .child1 {
+    position: relative;
+}
+footer .box1 {
+    text-align: center;
+}
+footer .box1 .child1 div:first-child img {
+    width: 200px;
+}
+footer .box1 .child1 div:last-child {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-3%, -50%);
+}
+footer .box1 .child1 img:last-child {
+    width: 50px;
+}
+footer .box1 .child2 p {
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 50px;
+    font-weight: 600;
+    line-height: 1.8;
+}
+footer .box2 {
+    text-align: center;
+}
+footer .box2 ul {
+    margin-bottom: 15px;
+    list-style: none;
+    line-height: 3;
+    padding: 0;
+}
+
+footer .box2 ul li a {
+    color: #ffffff;
+    font-weight: 600;
+}
+footer .box2  ul li a:hover {
+    color: #ff9065;
+}
+
+
+footer .box3 {
+    text-align: center;
+}
+footer .box3 .child1 h4 {
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+footer .box3 .child2 .btn-light {
+    width: 270px;
+    border-radius: 30px;
+    height: 50px;
+    padding: 10px 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+footer .box3 .child2 .btn-light span {
+    font-weight: bold;
+    color: #cf455c;
+    font-size: 18px;
+    vertical-align: super;
+}
+footer .box3 .child2 .btn-light i {
+    color: #ff9065;
+    margin-right: 7px;
+    font-size: 25px;
+    vertical-align: super;
+}
+footer .box3 .child3  a {
+    color: #ffffff;
+    padding: 0 10px;
+}
+footer .box3 .child3 a:hover {
+    text-decoration: none;
+}
+footer .box3 .child3 a i {
+    font-size: 30px;
+}
+
+/*end footer*/
+
+/************************************************************************************************/
+
+/*start framework*/
+
+.special-heading {
+    color: #cf455c;
+    position: relative;
+    padding-right: 15px;
+}
+.special-heading:after {
+    position: absolute;
+    content: "";
+    border-right: 5px solid #fd8e63;
+    height: 45px;
+    top: -5px;
+    right: 0;
+}
+
+/*end framework*/
+
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*start home header*/
+    .home-header {
+        height: 500px;
+    }
+    .home-header .child1 {
+        text-align: center;
+    }
+    .home-header .child2 {
+        top: 37%;
+    }
+    .home-header .child2 .box2 img {
+        width: 45px;
+        right: 52%;
+        transform: translate(98%, -42%);
+    }
+    .home-header .home-navbar {
+        bottom: -18%;
+    }
+    .home-header .home-navbar .form-group input {
+        height: 40px;
+        font-size: 16px;
+        margin-bottom: 20px;
+        padding: 5px 20px;
+    }
+    .home-header .home-navbar .form-group .bootstrap-select {
+        height: 40px;
+    }
+    .home-header .home-navbar .form-group .bootstrap-select .dropdown-toggle {
+        font-size: 16px;
+        height: 40px;
+        padding: 5px 20px;
+    }
+    .home-header .home-navbar .form-group .bootstrap-select .dropdown-toggle:after {
+        font-size: 25px;
+    }
+    .home-header .home-navbar .form-group .form-button {
+        height: 40px;
+        width: 80%;
+        font-size: 16px;
+        margin-top: 20px;
+        padding: 5px 20px;
+    }
+    /*end home header*/
+
+    /*start home categories*/
+    .home-categories {
+        margin-top: 120px;
+    }
+    .home-categories .box {
+        margin-bottom: 30px;
+    }
+    .home-categories .box .dropdown {
+        margin-top: 15px;
+    }
+    .home-categories .box .dropdown .dropdown-menu {
+        text-align: center;
+    }
+    .home-categories .box .dropdown .btn-secondary {
+        width: 85%;
+        font-size: 15px;
+    }
+    .home-categories .box .dropdown-toggle:after {
+        left: 11%;
+    }
+    /*end home categories*/
+
+    /*start join us*/
+    .join-us .join-heading {
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+    .join-us form input {
+        width: 100%;
+        height: 60px;
+        font-size: 16px;
+    }
+    .join-us form .join-form-btn {
+        margin-top: 30px;
+    }
+    /*end join us*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*start home header*/
+    .home-header {
+        height: 600px;
+    }
+    .home-header .child2 {
+        top: 42%;
+    }
+    .home-header .home-navbar {
+        bottom: -13%;
+        right: 5%;
+        left: 5%;
+    }
+    .home-header .home-navbar .form-group input {
+        height: 45px;
+        font-size: 16px;
+    }
+    .home-header .home-navbar .form-group .bootstrap-select {
+        height: 45px;
+    }
+    .home-header .home-navbar .form-group .bootstrap-select .dropdown-toggle {
+        font-size: 16px;
+        height: 45px;
+    }
+    .home-header .home-navbar .form-group .bootstrap-select .dropdown-toggle:after {
+        font-size: 25px;
+    }
+    .home-header .home-navbar .form-group .form-button {
+        height: 45px;
+        width: 80%;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    /*end home header*/
+
+    /*start home categories*/
+    .home-categories {
+        margin-top: 120px;
+    }
+    .home-categories .box {
+        margin-bottom: 30px;
+    }
+    .home-categories .box .dropdown .btn-secondary {
+        font-size: 13px;
+    }
+    /*end home categories*/
+
+    /*start join us*/
+    .join-us .join-heading {
+        margin-bottom: 40px;
+    }
+    .join-us form input {
+        width: 450px;
+        height: 60px;
+    }
+    .join-us form .join-form-btn {
+        margin-top: 30px;
+    }
+    /*end join us*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*start home header*/
+    .home-header {
+        height: 600px;
+    }
+    .home-header .child2 {
+        top: 42%;
+    }
+    .home-header .home-navbar {
+        bottom: -14%;
+        right: 5%;
+        left: 5%;
+    }
+    .home-header .home-navbar .form-group .form-button {
+        margin-top: 30px;
+    }
+    /*end home header*/
+
+    /*start home categories*/
+    .home-categories {
+        margin-top: 120px;
+    }
+    .home-categories .box {
+        margin-bottom: 30px;
+    }
+    .home-categories .box .dropdown .btn-secondary {
+        font-size: 13px;
+    }
+    /*end home categories*/
+
+    /*start join us*/
+    .join-us .join-heading {
+        margin-bottom: 50px;
+    }
+    .join-us form input {
+        width: 500px;
+    }
+    /*end join us*/
+
+    /*start footer*/
+    footer .box1 {
+        margin-bottom: 30px;
+    }
+    /*end footer*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .home-categories .box {
+        margin-bottom: 30px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }

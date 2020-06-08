@@ -1,0 +1,225 @@
+/*start header*/
+.home-header {
+    height: 200px;
+}
+.home-header .child2 {
+    top: 44%;
+}
+.home-header .child2 .box1 img {
+    width: 250px;
+}
+.home-header .child2 .box2 img {
+    width: 48px;
+}
+/*end header*/
+
+/*start add e3lan*/
+.add-e3lan {
+    padding: 40px 0;
+    background: url("../../assets/Rectangle 31.png") no-repeat;
+    background-size: cover;
+}
+.add-e3lan .card {
+    margin-top: 30px;
+    border-radius: 25px;
+    background-color: #ececec;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .form-group label{
+    font-weight: bold;
+    color: #fd8e63;
+    font-size: 20px;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .form-group .form-control {
+    border-radius: 30px;
+    height: 60px;
+    padding: 10px 30px;
+    color: #fd8e63;
+    font-size: 25px;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .form-group .form-control:focus {
+     border-color: inherit;
+     box-shadow: none;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .form-group .form-control:hover {
+    border-color: inherit;
+    box-shadow: none;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .bootstrap-select.form-control {
+    padding: 0 !important;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .bootstrap-select>.dropdown-toggle {
+    height: 60px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #fd8e63;
+    font-size: 25px;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .bootstrap-select .dropdown-toggle:after{
+    color: #fd8e63;
+    font-size: 45px;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .bootstrap-select .dropdown-toggle:focus{
+    outline: 0 !important;
+    box-shadow: none;
+    border-color: #fd8e63;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .bootstrap-select .dropdown-menu .dropdown-item.active,
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .bootstrap-select  .dropdown-menu .dropdown-item:active {
+    background-color: #fd8e63;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .bootstrap-select .dropdown-toggle.btn-light{
+    color: #fd8e63;
+    background-color: #ffffff;
+    border-color: #ced4da;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .bootstrap-select .dropdown-toggle.btn-light:hover {
+    color: #fd8e63;
+    background-color: #ffffff;
+    border-color: #fd8e63;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .bootstrap-select .dropdown-toggle.btn-light:focus {
+    border-color: #fd8e63;
+}
+.add-e3lan .card .add-e3lan-form .bootstrap-select .dropdown-toggle .filter-option {
+    text-align: right;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .checkbox-heading {
+    text-align: right;
+    font-weight: bold;
+    color: #fd8e63;
+    margin: 30px 0;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .checkbox-parent {
+    text-align: right;
+    margin-bottom: 15px;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .checkbox-parent .box {
+    margin-bottom: 20px;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .pretty {
+    margin-right: 0;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .pretty .state label {
+    text-indent: 30px;
+    color: #fd8e63;
+}
+.add-e3lan .card .add-e3lan-form .pretty.p-icon .state .icon {
+    right: 0;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .pretty .state label:before,
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .pretty .state label:after{
+    right: 0;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .pretty .state label:before {
+    border: 1px solid #fd8e63;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .pretty input:checked~.state.p-success label:after {
+    background-color: #fd8e63 !important;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form textarea {
+    height: 200px !important;
+}
+.add-e3lan .card .card-body .parent1 .add-e3lan-form .add-e3lan-form-btn {
+    background-image: linear-gradient(to bottom, #cf455c, #fd8e63);
+    border: 0;
+    padding: 10px 20px;
+    width: 250px;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 22px;
+    cursor: pointer;
+}
+/*end add e3lan*/
+
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*start home header*/
+    .home-header .child1 i {
+        font-size: 27px;
+    }
+    .home-header .child1 a {
+        font-size: 17px;
+    }
+    .home-header .child2 {
+        top: 53%;
+    }
+    .home-header .child2 .box1 img {
+        width: 200px;
+    }
+    .home-header .child2 .box2 img {
+        width: 38px;
+    }
+    /*start home header*/
+
+    /*start add e3lan*/
+    .add-e3lan .card .card-body .parent1 {
+        margin-bottom: 30px;
+    }
+    .add-e3lan .card .card-body .parent1 .add-e3lan-form .form-group .form-control {
+        height: 50px;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    .add-e3lan .card .card-body .parent1 .add-e3lan-form .bootstrap-select>.dropdown-toggle {
+        height: 50px;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    .add-e3lan .card .card-body .parent1 .add-e3lan-form .bootstrap-select .dropdown-toggle:after {
+        font-size: 30px;
+    }
+    .add-e3lan .card .card-body .parent1 .add-e3lan-form textarea {
+        height: 120px !important;
+    }
+    /*end add e3lan*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*start home header*/
+    .home-header .child1 i {
+        font-size: 27px;
+    }
+    .home-header .child1 a {
+        font-size: 17px;
+    }
+    .home-header .child2 {
+        top: 53%;
+    }
+    .home-header .child2 .box1 img {
+        width: 200px;
+    }
+    .home-header .child2 .box2 img {
+        width: 38px;
+    }
+    /*start home header*/
+
+    /*start add e3lan*/
+    .add-e3lan .card .card-body .parent1 {
+        margin-bottom: 30px;
+    }
+    .add-e3lan .card .card-body .parent1 .add-e3lan-form .checkbox-parent .box:last-child {
+        text-align: center;
+    }
+    /*end add e3lan*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*start add e3lan*/
+    .add-e3lan .card .card-body .parent1 {
+        margin-bottom: 30px;
+    }
+    /*end add e3lan*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+/*@media (min-width: 992px) and (max-width: 1199.98px) { ... }*/
+/* */
+/*Extra large devices (large desktops, 1200px and up)*/
+/*@media (min-width: 1200px) { ... }*/
